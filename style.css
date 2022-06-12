@@ -1,0 +1,77 @@
+html{
+     font-family: Arial, sans-serif;
+}
+*{
+    color: #000000;
+}
+body {
+    background: #F0FFFF			;
+ color: #fff;
+}
+.foto{
+    position: relative;
+    right: 200px;
+    top: -50px;
+    wi
+}
+h1{
+    color:#0000FF;
+    margin-bottom: 0.25em;
+}
+
+h2{
+    color: #000000;
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+h3{
+    color: #000000;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+.description{
+    margin-bottom: 2em;
+
+}
+
+a{
+    color:#0000FF;
+}
+.contacts{
+    margin-bottom: 2em;
+}
+.contact{
+    display: flexbox;
+    align-items: center;
+    font-weight: bold;
+    font-size:1em;
+    
+
+}
+.contact__value{
+    margin-bottom: 1em;
+    font-weight: 1;
+    text-decoration: underline;
+}
+
+.skills{
+    margin-bottom: 2em;
+
+}
+.examplecode{
+    margin-bottom: 2em;
+
+}
+.experience{
+    margin-bottom: 2em;
+
+}
+.education{
+    margin-bottom: 2em;
+}
+.cv{
+    max-width: 900px;
+    margin: auto;
+}
