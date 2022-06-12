@@ -10,7 +10,9 @@ body {
 }
 .foto{
     position: relative;
-    right: 450px;
+    right: 200px;
+    top: -50px;
+    wi
 }
 h1{
     color:#0000FF;
