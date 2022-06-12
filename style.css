@@ -9,14 +9,17 @@ body {
  color: #fff;
 }
 .foto{
-    position: relative;
-    right: 200px;
-    top: -50px;
-    wi
+   position: relative;
+   width: auto;
+   height: auto;
+   left: 340px;
+   bottom: -30px;
 }
+
 h1{
     color:#0000FF;
     margin-bottom: 0.25em;
+    margin-top: -210px;
 }
 
 h2{
