@@ -1,1 +1,1 @@
-https://gxages.github.io/rsschool-cv/
+https://gxages.github.io/rsschool-cv/cv
