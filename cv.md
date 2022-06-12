@@ -5,7 +5,7 @@ Anton Papkou
 ![Anton Papkou](https://github.com/gxages/rsschool-cv/blob/main/image/MyFoto.jpg)
 
 # Contacts:
- email: gxages@gmail.com, telegram - +375(29)834-31-84, Discord - Anton Papkou (@gxages). Preferably Discord or Telegram
+ email: gxages@gmail.com, telegram - @BoozyGoose, Discord - Anton Papkou (@gxages). Preferably Discord or Telegram
 
 # About me: 
 I`m 33 years old. I was born in Gomel, Republic of Belarus. I currently live in the Czech Republic.
