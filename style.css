@@ -1,12 +1,14 @@
 html{
      font-family: Arial, sans-serif;
+
 }
 *{
     color: #000000;
 }
 body {
-    background: #F0FFFF			;
+    background: #dfc369			;
  color: #fff;
+ 
 }
 .foto{
    position: relative;
@@ -27,15 +29,20 @@ h2{
     font-size: 1.4em;
     margin-top: 0;
     margin-bottom: 1em;
+    
 }
 h3{
     color: #000000;
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 1em;
+    text-decoration: underline;
+
 }
 .description{
     margin-bottom: 2em;
+    font-size: 20px;
+
 
 }
 
@@ -61,20 +68,50 @@ a{
 
 .skills{
     margin-bottom: 2em;
+    font-size: 20px;
+
 
 }
 .examplecode{
     margin-bottom: 2em;
+    font-size: 20px;
 
 }
 .experience{
     margin-bottom: 2em;
+    font-size: 20px;
+
 
 }
 .education{
     margin-bottom: 2em;
+    font-size: 20px;
+
 }
 .cv{
     max-width: 900px;
     margin: auto;
 }
+footer{
+    text-align: center;
+    color: #fff;
+    background: #03949edc;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+   .logo-rss{
+    width: 70px;
+}
+
+.link-footer{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer{
+    border-radius: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
