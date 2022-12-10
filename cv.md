@@ -14,10 +14,7 @@ Unfortunately, I have no experience in this area. But I am motivated to gain new
 I can attribute to my strengths the ability to search for information, analyze it and obtain a solution to a problem through the search and analysis of information.
 
 # Skills:
- C# - basic 
- HTML - basic
- CSS - basic
- JavaScript - basic
+
 
 # Example code:
 ```
