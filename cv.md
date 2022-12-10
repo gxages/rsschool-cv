@@ -2,7 +2,7 @@
 Anton Papkou
 
 
-![Anton Papkou](https://github.com/gxages/rsschool-cv/blob/gh-pages/images/MyFoto.jpg)
+![Anton Papkou](https://github.com/gxages/rsschool-cv/blob/2fe2fab06913af6ff26a24f66cdc705553a56148/images/MyFoto.jpg)
 
 # Contacts:
  email: gxages@gmail.com, telegram - @BoozyGoose, Discord - Anton Papkou (@gxages). Preferably Discord or Telegram
