@@ -4,7 +4,7 @@
    font-family: Arial, sans-serif;
    font-size: 18px;
    line-height: 1.5;
-   background-color: #ffffff;
+   background-color: hwb(0 90% 8%);
    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
  }
 .body {
@@ -40,16 +40,18 @@ header img{
    overflow: hidden;
    width: 150px;
   height: 150px;
-  border: 10px solid skyblue;
+  border: 10px solid cornflowerblue;
 }
    header h1{
       margin-bottom: 10px;
       text-transform: uppercase;
-
+      line-height: 2px;
+      color: dimgray;
    }
 
    header h2{
       margin-bottom: 10px;
+     
 
    }
 
@@ -58,20 +60,33 @@ header img{
    vertical-align: middle;
    font-weight: 600;
    text-transform: uppercase;
+   color: cornflowerblue;
+   border-bottom: 1px solid cornflowerblue;
    
 }   
 
 main{
    padding: 0 40px;
-   background-color: darkgray;
+  \\ background-color: #C0C0C0	;
 }
 main h3{
    width: 136px;
    margin: 40px auto 20px;
    padding: 5px 20px;
    text-align: center;
+   color: cornflowerblue;
+   border-bottom: 1px solid cornflowerblue;
+
 }
 
+.right_column p{
+   color: dimgray;
+   text-indent: 15px;
+   text-align: justify;
+}
+main p{
+   color: dimgray;
+}
 
 .footer {
    display: flex;
