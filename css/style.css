@@ -1,7 +1,7 @@
 .container {
    margin: 20px auto;
    width: 1024px;
-   font-family: "Cabin", sans-serif;
+   font-family: Arial, sans-serif;
    font-size: 18px;
    line-height: 1.5;
    background-color: #ffffff;
@@ -22,6 +22,7 @@
 }
 .right_column{
    width: 60%;
+   padding: 45px;
 }
 
 header{
@@ -39,6 +40,7 @@ header img{
    overflow: hidden;
    width: 150px;
   height: 150px;
+  border: 10px solid skyblue;
 }
    header h1{
       margin-bottom: 10px;
@@ -47,8 +49,28 @@ header img{
    }
 
    header h2{
+      margin-bottom: 10px;
 
    }
+
+.right_column h3{
+   flex: 1;
+   vertical-align: middle;
+   font-weight: 600;
+   text-transform: uppercase;
+   
+}   
+
+main{
+   padding: 0 40px;
+   background-color: darkgray;
+}
+main h3{
+   width: 136px;
+   margin: 40px auto 20px;
+   padding: 5px 20px;
+   text-align: center;
+}
 
 
 .footer {
@@ -58,7 +80,7 @@ header img{
    padding: 20px;
    font-size: 0.8rem;
 
-   background-color: #4d4040;
+   background-color: darkgray;
  }
 
 .logo-rss{
@@ -72,3 +94,9 @@ header img{
   
  }
 
+pre{
+   margin-left:-150px;
+   padding-left: 0;
+   align-items: flex-start;
+   display: flex;
+}
