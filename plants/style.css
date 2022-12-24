@@ -1,3 +1,11 @@
+/* -------------------- constants ---------------------- */
+:root{
+    --color-main:#499A18;
+    --color-secondary:#E06733;
+    --color-background-main:#EDF2EC;
+    --color-background-secondary:#FFFFFF;
+    
+}
 html{
     font-size: 10px;
 }
@@ -9,4 +17,241 @@ body{
 
 .wrapper{
     max-width: 1440px;
+    margin: auto;
+}
+
+/* -------------------- styles for text  ---------------- */
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+
+h2{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color:var(--color-main)
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--color-secondary);
+}
+
+h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.color__text{
+    color:var(--color-main);
+}
+
+.color__text_second{
+    color: var(--color-secondary);
+}
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+/* -------------------- sections -----------------------------*/
+header{
+    background-color:var(--color-background-main);
+    padding: 52px 0 60.96px 0;
+  
+}
+
+main{
+    background-color:var(--color-background-main);
+    padding: 52px 0 60.96px 0;
+}
+
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navig{
+    display: flex;
+}
+
+.navig__list{
+    list-style: none;
+    padding: 0 46px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #000;
+    cursor: pointer;
+}
+
+.navig__list__home{
+    list-style: none;
+    padding: 0 46px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.Logo{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.logo__cont{
+    padding-left: 111px;
+}
+
+.welcome{
+    background-color: var(--color-background-main);
+}
+
+.welcome__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 109px 62px;
+}
+
+.welcome__content__right{
+    width: 549px;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+   
+}
+.welcome__leafs{
+    width: 448.8px;
+    height: 407.36px;
+       
+}    
+
+.about{
+    background-color: var(--color-background-secondary);
+}
+
+.about__wrapper{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 109px 93px;
+}
+
+.about__content{
+    word-wrap: break-word;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 605px;
+    height: 350px;
+    left: 109px;
+    top: 161px;
+}
+.houseplant{
+    width: 464px;
+    height: 479px;
+    left: 867px;
+    top: 93px;
+}
+
+.staffs{
+    display: none;
+}
+/*
+.about__content:hover + .staffs{
+    
+ }
+ */
+
+.services{
+    background-color: var(--color-background-main);
+}
+
+.services__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.services__description{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.services__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prices{
+    background-color: var(--color-background-secondary);
+}
+
+.contacts{
+    background-color: var(--color-background-main);
+}
+
+footer{
+    background-color: var(--color-background-secondary);
+}
+
+/* ---------------------- elements ------------------------*/
+
+.button_first{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background: var(--color-background-secondary);
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    cursor: pointer;
+
+    padding: 14px 27px;
+}
+
+.button_second{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--color-secondary);
+    cursor: pointer;
+    background-color: var(--color-background-secondary);
+    border: 1px solid #E06733;
+    border-radius: 5px;
+
+    padding: 12px 40px
 }
