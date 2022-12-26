@@ -289,11 +289,23 @@ main{
 }
 .button__wrapp{
     display: flex;
-   
     padding: 148px 109px 0 0 ;
 }
 footer{
     background-color: var(--color-background-secondary);
+}
+
+.footer__wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.social__list{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
 }
 
 /* ---------------------- elements ------------------------*/
