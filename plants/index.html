@@ -66,7 +66,7 @@
         <section class="services">
             <div class="wrapper services__wrapper">
                 <div class="services__description">
-                    <h2>Service and our projects</h2>
+                    <h2 class="services__title">Service and our projects</h2>
                     <div class="services__buttons">
                         <button class="button_second">Gardens</button>
                         <button class="button_second">Lawn</button>
@@ -109,26 +109,29 @@
             </div>
         </section>
         <section class="prices">
-            <div class="wrapper">
-                <div class="prices__content__left">
+            <div class="wrapper prices__wrapper">
+                <div class="prices" id="prices">
                     <h4>Prices</h4>
-                    <select name="prices__select" id="#">
-                        <option value="Basics">Basics</option>
-                    </select>
-                    <select name="prices__select" id="#">
-                        <option value="Standart">Standart</option>
-                    </select>
-                    <select name="prices__select" id="#">
-                        <option value="Pro__care">Pro care</option>
-                    </select>
                 </div>
-                <div class="prices__content__right">
+                <div class="prices__form" id="prices__form">
+                       <ul class="dropdown__menu">
+                        <li><button class="select__button">Basics <span><img src="img/other/accordion_btn.png" alt="accordion_btn"></span> </button></li>
+                        <li><button class="select__button">Standart<span><img src="img/other/accordion_btn.png" alt="accordion_btn"></span> </button></li>
+                        <li><button class="select__button">Pro care<span><img src="img/other/accordion_btn.png" alt="accordion_btn"></span> </button></li>
+                       </ul>
+                </div>
+              <div class="prices__content" id="prices__description">
+                <div class="prices__description" >
                     <h4>Our best <span class="color__text">gardeners</span> are ready to help you</h4>
-                    <div class="price__button">
-                        <button class="button_second">Contact us</button>
-                        <img src="img/prices/leafs.jpg" alt="leafs">
-                    </div>
                 </div>
+                <div class="prices__button" >
+                    <button class="button_second">Contact us</button>
+                </div>
+                <div class="prices__image" >
+                    <img src="img/prices/leafs.jpg" alt="leafs">
+                </div>
+              </div>
+
             </div>
         </section>
         <section class="contacts">
