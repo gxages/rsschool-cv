@@ -6,6 +6,7 @@
     --color-background-secondary:#FFFFFF;
     
 }
+
 html{
     font-size: 10px;
 }
@@ -78,6 +79,7 @@ p{
 header{
     background-color:var(--color-background-main);
     padding: 52px 0 60.96px 0;
+   
   
 }
 
@@ -269,8 +271,27 @@ main{
 
 .contacts{
     background-color: var(--color-background-main);
+    
 }
 
+.contacts__wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__wrapper h2{
+    padding-top: 60px;
+    margin: 0;
+}
+.contact__img{
+    padding-top: 53px;
+    
+}
+.button__wrapp{
+    display: flex;
+   
+    padding: 148px 109px 0 0 ;
+}
 footer{
     background-color: var(--color-background-secondary);
 }
@@ -333,12 +354,45 @@ footer{
     font-size: 20px;
     line-height: 20px;
     color: #000000;
+    border: 0;
 }
 
 .select__button{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
+
+}
+.contact__button{
+    width: 450px;
+    height: 50px;
+}
+.contact__button{
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    border: 0;
+}
+
+.contact__button{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: baseline;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 17px;
+    
+}
+.contact__button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
     cursor: pointer;
 
 }
