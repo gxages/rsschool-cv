@@ -74,6 +74,14 @@ p{
     line-height: 30px;
     color: #636060;
 }
+.style__header p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
 
 /* -------------------- sections -----------------------------*/
 header{
@@ -208,8 +216,8 @@ main{
 
 .services__description{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 40px 109px 90px;
  
 }
@@ -217,19 +225,32 @@ main{
 .services__content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: space-around;
-    width:1222px ;
+    justify-content: space-around;
+    width: 1222px ;
     height: 955px;
     padding: 0px 109px 119px 109px;
+    
 }
 
-.services__title{
-    width: 306px;
-    height: 94px;
+.style__cards{
+    width: 330px;  
 }
 
+.style__img {
+    border-radius: 0 0 20px 20px;
+    width: 330px;
+    height: 350px;
+ 
+  }
+
+  .style__info {
+    text-align: center;
+    word-break: break-word;
+    overflow: hidden;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #E3E1D5;
+   
+  }
 
 .prices{
     background-color: var(--color-background-secondary);
