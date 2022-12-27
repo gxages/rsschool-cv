@@ -83,12 +83,36 @@ p{
     color: #717171;
 }
 
+a.home__nav:active, 
+a.home__nav:hover, 
+a.home__nav{
+  text-decoration: none;
+  color: var(--color-secondary);
+  list-style: none;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+
+}
+a.link__nav:active, 
+a.link__nav:hover, 
+a.link__nav{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #000;
+    cursor: pointer;
+}
 /* -------------------- sections -----------------------------*/
 header{
     background-color:var(--color-background-main);
-    padding: 52px 0 60.96px 0;
-   
-  
+    padding: 52px 0 60.96px 0; 
 }
 
 main{
@@ -104,29 +128,19 @@ main{
 
 .navig{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 452px;
+    height: 50px;
 }
 
 .navig__list{
     list-style: none;
-    padding: 0 46px;
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 50px;
-    color: #000;
     cursor: pointer;
+
 }
 
-.navig__list__home{
-    list-style: none;
-    padding: 0 46px;
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 50px;
-}
+
 
 .Logo{
     font-family: 'Inika';
