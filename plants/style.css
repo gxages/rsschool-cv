@@ -192,36 +192,95 @@ main{
 .about__wrapper{
     display: flex;
     align-items:center ;
-    justify-content: space-between;
     /* padding: 93px 109px; */
 }
+.about__header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(100%/2.5);
+    position: relative;
+    opacity: 1;
 
+}
+.about__img{
+    display: flex;
+}
 .about__content{
+    display: flex;    
+    gap: 153px;
+}
+/* .about__content{
     word-wrap: break-word;
     display: flex;
+    flex-direction: column;
     justify-content: left;
     flex-wrap: wrap;
     width: 605px;
     height: 350px;
     left: 109px;
     top: 161px;
-}
-.houseplant{
+} */
+/* .houseplant{
     width: 464px;
     height: 479px;
     left: 867px;
     top: 93px;
-}
-
-.staffs{
-    display: none;
-}
-/*
-.about__content:hover + .staffs{
+} */
+.staffs__hover{
+    position: absolute;
+    /* margin: auto; */
+    padding-top: calc(15%);
     
- }
- */
+}
+.staffs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    grid-template-areas:
+    "grid__box_4 grid__box_3 grid__box_3"
+    "grid__box_2 grid__box_2 grid__box_1"
+    ;
+}
+.grid__box_1{
+    display: grid;
+  grid-area: grid__box_1;
+  justify-content: end;
+}
+.grid__box_2{
+   grid-area:grid__box_2 ;
+   display: grid;
+   justify-content: end;
+}
+.grid__box_3{
+    grid-area: grid__box_3;
+    display: grid;
+    justify-content: start;
+}
+.grid__box_4{
+    grid-area: grid__box_4; 
+    display: grid;
+    justify-content: start;
+}
+.grid__box__text{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
 
+.staffs__hover{
+display: none;
+
+}
+.about__header:hover .staffs__hover{
+    display: block;
+}
+
+/* _________________services________________________  */
 .services{
     background-color: var(--color-background-main);
 }
@@ -235,8 +294,17 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1009px;
     /* padding: 40px 109px 90px; */
- 
+}
+
+.services__buttons{
+    display: flex;
+    gap: 38px;
+}
+.services__title{
+    width: 306px;
+    height: 94px;
 }
 
 .services__content{
